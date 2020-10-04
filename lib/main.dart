@@ -12,7 +12,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage("https://vo.la/S4mzM"),
+            image: AssetImage("images/diamond.png")
           ),
         ),
       ),
