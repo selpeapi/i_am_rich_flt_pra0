@@ -4,8 +4,17 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Center(
-        child: Text("ITZY, YEJI"),
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey[300],
+        appBar: AppBar(
+          title: Text("I am rich"),
+          backgroundColor: Colors.blueGrey,
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage("https://vo.la/S4mzM"),
+          ),
+        ),
       ),
     ),
   );
